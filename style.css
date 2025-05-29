@@ -1,0 +1,107 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background: url('image/8895911.jpg') no-repeat center center fixed;
+  background-size: cover;
+  margin: 0;
+  padding: 0;
+  color: #333;
+  position: relative;
+  z-index: 0;
+}
+body::before {
+  content: '';
+  position: fixed;
+  top: 0; left: 0;
+  width: 100%; height: 100%;
+  background: rgba(0, 0, 0, 0.4); /* Escurecimento */
+  z-index: -1;
+}
+
+
+
+header {
+  background: linear-gradient(to right, #ff9933, #ffcc66);
+  color: #fff;
+  text-align: center;
+  padding: 1rem 0;
+  position: relative;
+}
+
+header .banner {
+  width: 100%;
+  height: auto;
+  max-height: 150px;
+  object-fit: cover;
+}
+
+h1 {
+  margin: 0;
+  font-size: 2rem;
+  text-shadow: 1px 1px 2px #00000060;
+}
+
+main {
+  padding: 2rem;
+  max-width: 900px;
+  margin: auto;
+}
+
+section {
+  background: #ffffffcc;
+  margin-bottom: 2rem;
+  padding: 1rem;
+  border-radius: 12px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+#ranking ul,
+#eventos ul {
+  list-style: none;
+  padding: 0;
+}
+
+#ranking li {
+  background: #ffde59;
+  margin: 0.5rem 0;
+  padding: 0.75rem;
+  border-radius: 8px;
+  font-weight: bold;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#premio {
+  background-color: #dfffe2;
+  border-left: 5px solid #4caf50;
+}
+
+#pontuacao-produtos table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 1rem;
+}
+
+#pontuacao-produtos th,
+#pontuacao-produtos td {
+  padding: 0.75rem;
+  border-bottom: 1px solid #ccc;
+  text-align: left;
+}
+
+#pontuacao-produtos th {
+  background: #ffcc80;
+}
+
+#pontuacao-produtos td {
+  background: #fff3e0;
+}
+
+footer {
+  background: #333;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+  margin-top: 2rem;
+  font-size: 0.9rem;
+}
