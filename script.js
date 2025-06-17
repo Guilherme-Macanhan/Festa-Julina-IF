@@ -1,9 +1,9 @@
 // Simulando dados que poderiam vir de uma API
 const dadosSalas = [
-  { nome: 'Sala 2A', pontos: 120 },
-  { nome: 'Sala 3B', pontos: 95 },
-  { nome: 'Sala 1C', pontos: 80 },
-  { nome: 'Sala 4D', pontos: 110 }
+  { nome: ' ', pontos:  },
+  { nome: '', pontos:  },
+  { nome: ' ', pontos:  },
+  { nome: ' ', pontos:  }
 ];
 
 // Ordena e exibe
